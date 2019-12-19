@@ -20,15 +20,12 @@ RUN apt-get update --fix-missing && \
     g++-7 \
     libxmu-dev \
     libxi-dev \
-    lib64 \
     libglu1-mesa \
     libglu1-mesa-dev \
     libjpeg-dev \
     libpng-dev \
     libtiff-dev \
-    libjasper-dev \
     libavcodec-dev \
-    libav-tools  \
     libavformat-dev \
     libswscale-dev \ 
     libv4l-dev \
@@ -42,7 +39,6 @@ RUN apt-get update --fix-missing && \
     libtool \
     gfortran \
     openjdk-8-jdk \
-    nvidia-driver-396 \
     libhdf5-serial-dev \
     unzip \
     zlib1g-dev \
